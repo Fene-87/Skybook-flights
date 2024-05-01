@@ -12,6 +12,7 @@ import { BookFlightComponent } from './pages/website/book-flight/book-flight.com
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { HttpClientModule } from '@angular/common/http';
 import { MyBookingsComponent } from './pages/website/my-bookings/my-bookings.component';
+import { CommonModule } from '@angular/common';
 
 @Component({
   selector: 'app-root',
@@ -30,7 +31,8 @@ import { MyBookingsComponent } from './pages/website/my-bookings/my-bookings.com
     MyBookingsComponent,
     FormsModule,
     HttpClientModule,
-    ReactiveFormsModule
+    ReactiveFormsModule,
+    CommonModule
   ],
   templateUrl: './app.component.html',
   styleUrl: './app.component.scss'
